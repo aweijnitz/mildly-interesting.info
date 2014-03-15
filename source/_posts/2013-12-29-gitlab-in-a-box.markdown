@@ -31,8 +31,8 @@ In a console/cmd window, assuming VirtualBox and Vagrant are installed already
 ``` bash Downloading and starting the GitLab Vagrant box
 $ mkdir gitlab      # can be any name
 $ cd gitlab
-$ vagrant init gitlab http://mildly-interesting.info/vagrant/gitlab62svn.box
-$ curl http://mildly-interesting.info/vagrant/Vagrantfile > Vagrantfile   
+$ vagrant init gitlab http://80.86.92.244/vagrant/gitlab62svn.box
+$ curl http://80.86.92.244/vagrant/Vagrantfile > Vagrantfile   
 # If you are on Windows, you will have to manually download the Vagrant file using a browser.
 # Do any optional provisioning and config of the Vagrantfile here, then
 $ vagrant up
@@ -40,7 +40,7 @@ $ vagrant up
 # Profit!
 ```
 
-Once the box has started, point a browser to and start using the system: [http://localhost:8080](http://localhost:8080) 
+Once the box has started, point a browser to localhost and start using the system: [http://localhost:8080](http://localhost:8080) 
 _(see login info below)_
 
 ### Logins
@@ -81,4 +81,4 @@ Also, if you run into trouble, it is helpful to first start the VirtualBox appli
 
 There are alternatives to GitLab, like [Gitorious](https://gitorious.org/) and private hosting on Github, but following some googling, I decided to give GitLab a go. I am sure Gitorious is fine as well and GitHub is probably the best, but that comes at a price of course.
 
-And that's about it. Looking forward to hopefully try it out in real life.
+And that's about it. Looking forward to hopefully trying it out in real life.
