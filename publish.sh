@@ -1,1 +1,1 @@
-rake generate deploy
+bundle exec rake generate deploy

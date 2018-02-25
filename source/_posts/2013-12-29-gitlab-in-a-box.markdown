@@ -7,9 +7,15 @@ categories: DevOps VirtualBox Vagrant
 ---
 ## Putting a production ready GitLab in a Vagrant box
 I have been thinking about ways we could gradually switch from Subversion to using Git at work and since I had some time over during the Holidays, I decided to give [Vagrant](http://www.vagrantup.com/) a go.The goal is to quickly be able to setup new project environments using [GitLab](http://gitlab.org/) as the main collaboration and Git managenent system.
-
+<!-- more -->
 ## Current status
 Following the [instructions for prodution installs](https://github.com/gitlabhq/gitlabhq/blob/master/doc/install/installation.md) I managed to setup a production ready, Debian-based GitLab installation in VirtualBox and then bake a Vagrant box out of that. This means a project only has to add users, import their code and optionally change a few passwords to get going with a complete system.
+
+### Downloads
+These are the downloads. Read below for instructions.
+
+- [Production installed box](http://mildly-interesting.info/vagrant/gitlab62svn.box)
+- [Vagrant file](http://mildly-interesting.info/vagrant/Vagrantfile)
 
 ## The end goal
 The goal would be to allow quick and easy deployment of a production ready git server for projects to use on-premise, including a way to sync the code back to a central Subversion instance (necessary for our needs). Ideally it should also include a user friendly frontend to ease the switch from Subversion to Git and provide some basic means of collaboration. 
@@ -31,8 +37,8 @@ In a console/cmd window, assuming VirtualBox and Vagrant are installed already
 ``` bash Downloading and starting the GitLab Vagrant box
 $ mkdir gitlab      # can be any name
 $ cd gitlab
-$ vagrant init gitlab http://80.86.92.244/vagrant/gitlab62svn.box
-$ curl http://80.86.92.244/vagrant/Vagrantfile > Vagrantfile   
+$ vagrant init gitlab http://mildly-interesting.info/vagrant/gitlab62svn.box
+$ curl http://mildly-interesting.info/vagrant/Vagrantfile > Vagrantfile   
 # If you are on Windows, you will have to manually download the Vagrant file using a browser.
 # Do any optional provisioning and config of the Vagrantfile here, then
 $ vagrant up
@@ -66,7 +72,7 @@ vagrant status
 ```
 
 ### Making new boxes from existing ones
-If you install additional software, or tweak the box somehow, you can make a new base box to start other projects from using this command with an instance running. The result will be a new box file which you can put on a webserver and use, just like I did with this one.
+If you install additional software, or tweak the box somehow, you can make a new base box to start other projects from. It is really easy, just use the command below with your instance running. The result will be a new box file which you can put on a webserver and use, just like I did with this one.
 ``` bash Package new box from existing instance (running)
 vagrant package
 ```

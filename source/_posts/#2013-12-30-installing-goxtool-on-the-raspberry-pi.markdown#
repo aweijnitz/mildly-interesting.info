@@ -6,7 +6,7 @@ comments: true
 categories: Bitcoin RaspberryPi
 ---
 [GoxTool](https://github.com/caktux/goxtool) is a Bitcoin trading tool written in Python which allows automated trading on the [MtGox bitcoin exchange](https://www.mtgox.com/) using a terminal application. It is the software plaform that powers [ZeroGox](https://zerogox.com/), but you can set it up for yourself as well and this is what I tried to do.
-<!-- more -->
+
 In theory, the installation is straight forward; You clone the repo from GitHub and then start the application, provided you have Python installed. If you are running a Raspberry Pi however, it turned out to require a couple of extra steps to get it going. 
 
 ## This is what you need to do to prepare for the actual installation

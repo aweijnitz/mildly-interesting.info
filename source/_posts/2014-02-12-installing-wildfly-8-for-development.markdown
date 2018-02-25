@@ -3,10 +3,10 @@ layout: post
 title: "Installing Wildfly 8 for development"
 date: 2014-02-12 22:23:18 +0100
 comments: true
-categories: jee, java, wildfly
+categories: jee java wildfly
 ---
 Yesterday, [Wildfly 8](http://www.wildfly.org/) was released in the final version (8.0.0.Final) and I thought I'd share how I set it up for development. As you will see, there is nothing much to it which I see as a very good sign.
-
+<!-- more -->
 So, make sure you have a modern Java version installed, and then do this:
 
 
