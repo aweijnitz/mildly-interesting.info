@@ -15,10 +15,10 @@ I don't know where I got the original recipie, but this version is what I have h
 - 100g Regular Rye flour, Type 1150 in Germany. Can be exchanged for Dinkel, more Wheat etc. Add for taste.
 - 6-10g Salt, preferably without added iodine to not kill off the yeast. More salt --> Tastier bread!
 - 340g Water (the exact amount will vary with the flour used, air humidity etc)
-- Yeast in some form, (pick one)
-..* 3-7g Fresh yest. Dissolve in some cool un-chlorinated water before mixing in.
-..* 100g [Sourdough](https://www.weekendbakery.com/posts/handy-sourdough-tips/) starter (100 - 200g. More --> faster raise)
-..* 100g [Poolish](https://www.weekendbakery.com/posts/more-artisan-bread-baking-tips-poolish-biga/) (Note: This was too much for an overnight raise in Summer, but is a safe bet)
+- Yeast in some form, (pick __one__ of the following)
+  * 3-7g Fresh yest. Dissolve in some cool un-chlorinated water before mixing in.
+  * 100g [Sourdough](https://www.weekendbakery.com/posts/handy-sourdough-tips/) starter (100 - 200g. More --> faster raise)
+  * 100g [Poolish](https://www.weekendbakery.com/posts/more-artisan-bread-baking-tips-poolish-biga/) (Note: This was too much for an overnight raise in Summer, but is a safe bet)
 
 ## Preparation
 
